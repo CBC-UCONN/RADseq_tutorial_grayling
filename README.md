@@ -1,6 +1,6 @@
 # RADseq tutorial
 
-This tutorial demonstrates a few way to get and filter genotypes using restriction-site associated DNA. This readme is currently skeletal, but the code is more or less complete and demonstrates how to:
+This tutorial demonstrates a few ways to get and filter genotypes using restriction-site associated DNA. This readme is currently skeletal, but the code is more or less complete and demonstrates how to:
 
 1. Get genotypes using `stacks` in _de novo_ mode, step by step. 
 2. Get genotypes using `stacks` in reference mapping mode. 
