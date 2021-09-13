@@ -14,6 +14,7 @@ The dataset is from a fish, the Arctic grayling, and includes several hundred in
 
 Unfortunately, the data are unpublished at the moment, and so are only available to users of UConn's Xanadu cluster. We will update the code to retrieve the data from NCBI once they are deposited there. 
 
-The scripts are written to use SLURM, as configured for UConn's Xanadu cluster, but if you are at all comfortable with bash coding or SLURM you should be able to adapt them to your home server or your laptop, for your own dataset. If you're uncomfortable with those things, picking apart and figuring out code like this is a great way to learn!
+The scripts are written to use SLURM, as configured for UConn's Xanadu cluster. If you are using our cluster, you should be able to clone this repository and simply run the scripts sequentially to complete the analysis. The raw data are housed in a directory accessible to all users. If you are a workshop participant from outside the University, you can also clone and run the scripts sequentially, but you will need to update the partition to "mcbstudent" instead of "general". 
 
-If you are using UConn's Xanadu cluster, you should be able to clone this repository and simply run the scripts sequentially to complete the analysis. If you are a workshop participant from outside the University, you can also clone and run the scripts sequentially, but you will need to update the partition to "mcbstudent" instead of "general". 
+If you are not using Xanadu, and you are at all comfortable with bash coding or SLURM you should be able to adapt these scripts to your home server, your own laptop, or for your own dataset. If you're uncomfortable with those things, picking apart and figuring out code like this is a great way to learn! 
+
