@@ -20,7 +20,7 @@
 	# instead of copying the raw data, we create pointers to it. 
 
 # input, output directories
-POOLPATH="/labs/Wegrzyn/Urban_RAD_ArcticGrayling/raw_fastq/raw_fastq_files"
+POOLPATH="/core/labs/Wegrzyn/Urban_RAD_ArcticGrayling/raw_fastq/raw_fastq_files"
 
 RAWDATADIR=../data/pools
 mkdir -p $RAWDATADIR
