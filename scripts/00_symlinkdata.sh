@@ -7,7 +7,7 @@
 #SBATCH --partition=general
 #SBATCH --qos=general
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=first.last@uconn.edu
+#SBATCH --mail-user=
 #SBATCH -o %x_%j.out
 #SBATCH -e %x_%j.err
 
@@ -20,7 +20,7 @@
 	# instead of copying the raw data, we create pointers to it. 
 
 # input, output directories
-POOLPATH="/core/labs/Wegrzyn/Urban_RAD_ArcticGrayling/raw_fastq/raw_fastq_files"
+POOLPATH="/archive/labs/wegrzyn/HeidiGolden_ddRAD_April2022/raw_fastq/"
 
 RAWDATADIR=../data/pools
 mkdir -p $RAWDATADIR
