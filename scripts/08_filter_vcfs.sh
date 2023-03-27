@@ -65,7 +65,7 @@ vcftools --gzvcf $REFMAP/populations.snps.dict.vcf.gz \
 	# - note also that:
 		# 1. bcftools norm normalizes variant representation
 		# 2. vcfallelic primitives breaks down haplotype alleles into constituent parts
-GEN=../genome/GCA_004348285.1_ASM434828v1_genomic.fna
+GEN=../genome/GCA_023634145.1_fThyThy.pri.20220222_genomic.fna
 bcftools norm -f $GEN $FREEBA/fb_parallel.vcf.gz | \
 	vcfallelicprimitives --keep-info --keep-geno | \
 	vcfstreamsort | \

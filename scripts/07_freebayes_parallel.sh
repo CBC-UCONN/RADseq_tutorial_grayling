@@ -32,7 +32,7 @@ OUTDIR=../results/freebayes
 mkdir -p $OUTDIR
 
 #reference genome
-GEN=../genome/GCA_004348285.1_ASM434828v1_genomic.fna
+GEN=../genome/GCA_023634145.1_fThyThy.pri.20220222_genomic.fna
 
 # make a list of bam files
 	# use popmap_total.txt to construct the list

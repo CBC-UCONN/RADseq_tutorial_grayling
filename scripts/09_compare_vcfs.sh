@@ -58,7 +58,7 @@ bcftools isec -O z -p $INDIR/isec $INDIR/fb_final.vcf.gz $INDIR/refmap_final.vcf
 # 'bedtools map' counts the vcf records that fall in each sbf1 window
 
 # bedtools wants to know the order of chromosomes/contigs in the vcf, this file provides that
-FAI=../genome/GCA_004348285.1_ASM434828v1_genomic.fna.fai
+FAI=../genome/GCA_023634145.1_fThyThy.pri.20220222_genomic.fna
 
 bedtools slop -i ../meta/sbf1.bed.gz -l 400 -r 400 -g $FAI | \
 bedtools map -a stdin -b ../results/filtered_vcfs/fb_final.vcf.gz -c 1 -o count -g $FAI \
