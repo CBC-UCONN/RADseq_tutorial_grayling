@@ -20,7 +20,7 @@ date
 # populatins is the sixth and final step of the stacks de novo pipeline
 
 # load software------------------------------------------------------------
-module load stacks/2.53
+module load stacks/2.64
 
 # input, output files, directories-----------------------------------------
 INDIR=../results/stacks/denovo

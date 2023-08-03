@@ -20,7 +20,7 @@ date
 # cstacks is the second step of the stacks de novo pipeline
 
 # load software------------------------------------------------------------
-module load stacks/2.53
+module load stacks/2.64
 module load R/3.6.3
 
 # input, output files, directories-----------------------------------------

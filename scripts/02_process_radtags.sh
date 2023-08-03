@@ -21,7 +21,7 @@
 # This script demultiplexes each pool of RAD-seq data
 # It's an array script, so it submits 12 jobs, one for each pool
 
-module load stacks/2.53
+module load stacks/2.64
 
 # set input/output directories
 INDIR=../data/pools/

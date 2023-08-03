@@ -20,7 +20,7 @@ date
 # this script runs the stacks reference mapping module perl wrapper
 
 # load software------------------------------------------------------------
-module load stacks/2.53
+module load stacks/2.64
 module load GATK/4.1.8.1
 module load bcftools/1.9
 module load htslib/1.9

@@ -26,7 +26,7 @@ date
 # we use the SLURM_ARRAY_TASK_ID to grab a different sample for each job. 
 
 # load software--------------------------------------------------------------------------------
-module load stacks/2.53
+module load stacks/2.64
 
 #input/output directories, supplementary files-------------------------------------------------
 INDIR=../data/demux

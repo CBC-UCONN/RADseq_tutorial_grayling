@@ -22,7 +22,7 @@ date
 
 # load software--------------------------------------------------------------------------------
 module load bwa/0.7.17
-module load samtools/1.10
+module load samtools/1.16.1
 
 # input, output files and directories----------------------------------------------------------
 INDIR=../data/demux
