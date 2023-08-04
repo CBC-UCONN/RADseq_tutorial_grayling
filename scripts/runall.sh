@@ -19,4 +19,4 @@ jid16=$(sbatch --parsable --dependency=afterok:$jid15 08_filter_vcfs.sh )
 jid17=$(sbatch --parsable --dependency=afterok:$jid16 09_compare_vcfs.sh )
 jid18=$(sbatch --parsable --dependency=afterok:$jid17 10_reformat.sh)
 jid19=$(sbatch --parsable --dependency=afterok:$jid18 11_analysis.sh)
-
+jid20=$(sbatch --parsable --dependency=afterok:$jid19 05g_r80.sh)
