@@ -2,7 +2,7 @@
 #SBATCH --job-name=fastqc_raw
 #SBATCH -N 1
 #SBATCH -n 1
-#SBATCH -c 12
+#SBATCH -c 2
 #SBATCH --mem=4G
 #SBATCH --partition=general
 #SBATCH --qos=general
