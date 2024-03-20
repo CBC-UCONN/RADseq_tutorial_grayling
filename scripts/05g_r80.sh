@@ -35,7 +35,7 @@ OUTDIR=../results/stacks/denovo_r80/iteration_${SLURM_ARRAY_TASK_ID}
 mkdir -p ${OUTDIR}
 
 # create file with parameter combinations by looping over all values of m and M
-ALLm=($(echo {3..10}))
+ALLm=($(echo {1..8}))
 ALLM=($(echo {3..10}))
 
 for m in ${ALLm[@]}
